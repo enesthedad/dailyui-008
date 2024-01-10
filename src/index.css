@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "getSchifty";
+  src: url("get_schwifty.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+body {
+  margin: 0;
+  font-family: "getSchifty", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.App {
+  min-height: 100vh;
+  background: url("./Untitled.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+.container .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.container h2 {
+  color: #49e61d;
+  font-size: 250px;
+}
+
+.container img {
+  position: relative;
+  top: -20px;
+  height: 400px;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  justify-content: center;
+  align-items: center;
+}
+.bottom h3 {
+  font-family: "getSchifty";
+  color: #49e61d;
+  font-size: 142px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-shadow: 0px 0px 100px #f6faf0;
+  letter-spacing: 50px;
+}
+.bottom p {
+  font-family: "getSchifty";
+  color: #37971c;
+  font-size: 40px;
+  text-shadow: 0px 0px 50px #f6faf0;
+}
+footer {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgba(255, 255, 255, 0.07);
+  width: 100%;
+  padding: 10px 10px;
+  position: absolute;
+  bottom: 0;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+footer a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #49e61d;
+}
