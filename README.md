@@ -2,8 +2,8 @@
 
 ![Rick and Morty 404 Page](https://pbs.twimg.com/media/GDee2TvWcAAQa-L?format=jpg&name=large)
 
-## Overview
-
+## Overview [Live](https://fancy-hamster-1bd646.netlify.app/)
+<br/>
 This project is a 404 page created as part of the Daily UI challenges. The theme for this challenge is inspired by my favorite TV show "Rick & Morty" adding a touch of humor to the classic error page.
 
 ## Technologies Used
